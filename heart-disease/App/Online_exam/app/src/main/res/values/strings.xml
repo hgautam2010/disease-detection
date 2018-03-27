@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Online_exam</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="conpassword">Confirm Password</string>
+    <string name="phone">Mobile No</string>
+    <string name="login">LOG IN</string>
+    <string name="enter">ENTER DETAILS</string>
+    <string name="register">REGISTER</string>
+    <string name="lc">LUNG CANCER</string>
+    <string name="selectch">SELECT DISEASE</string>
+    <string name="heartd">HEART DISEASE</string>
+    <string name="switchon">SWITCH ON TO SELECT</string>
+</resources>
