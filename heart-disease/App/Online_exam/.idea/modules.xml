@@ -3,9 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Online_exam.iml" filepath="$PROJECT_DIR$/Online_exam.iml" />
-      <module fileurl="file://C:\Users\komalagarwal\Documents\GitHub\disease-detection\heart-disease\App\Online_exam\Online_exam.iml" filepath="C:\Users\komalagarwal\Documents\GitHub\disease-detection\heart-disease\App\Online_exam\Online_exam.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\komalagarwal\Documents\GitHub\disease-detection\heart-disease\App\Online_exam\app\app.iml" filepath="C:\Users\komalagarwal\Documents\GitHub\disease-detection\heart-disease\App\Online_exam\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tensorflow/tensorflow.iml" filepath="$PROJECT_DIR$/tensorflow/tensorflow.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="komalagarwal.online_exam.Softmax_regression">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="70dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="16dp"
+            android:text="Sbp"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="99dp"
+            android:ems="10"
+            android:textColor="#000000"
+            android:hint="Systolic blood pressure"
+            android:inputType="number"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintStart_toEndOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="236dp"
+            android:layout_height="23dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginStart="99dp"
+            android:text="high range of blood pressure"
+            android:textColor="#0277BD"
+            tools:layout_editor_absoluteX="114dp"
+            tools:layout_editor_absoluteY="66dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="70dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="16dp"
+            android:text="Tabacco"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="99dp"
+            android:ems="10"
+            android:textColor="#000000"
+            android:hint="Cumulative tabacco"
+            android:inputType="numberDecimal"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintStart_toEndOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="236dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginStart="99dp"
+            android:text="Cumulative tobacco consumption, in kg range between 0-30"
+            android:textColor="#0277BD"
+            tools:layout_editor_absoluteX="114dp"
+            tools:layout_editor_absoluteY="66dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="70dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="16dp"
+            android:text="Ldl"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="99dp"
+            android:ems="10"
+            android:hint="Low-density lipoprotein"
+            android:inputType="numberDecimal"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintStart_toEndOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="236dp"
+            android:layout_height="33dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginStart="99dp"
+            android:text="Low-density lipoprotein  cholesterol in the blood(1-12)"
+            android:textColor="#0277BD"
+            tools:layout_editor_absoluteX="114dp"
+            tools:layout_editor_absoluteY="66dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="70dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="16dp"
+            android:text="Adiposity"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="99dp"
+            android:ems="10"
+            android:textColor="#000000"
+            android:hint="Adipose tissue concentration"
+            android:inputType="numberDecimal"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintStart_toEndOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="246dp"
+            android:layout_height="33dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginStart="99dp"
+            android:text="Dibetes tissue in body between(9.5-39)"
+            android:textColor="#0277BD"
+            tools:layout_editor_absoluteX="114dp"
+            tools:layout_editor_absoluteY="66dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="70dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="16dp"
+            android:text="Famhist"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="250dp"
+            android:layout_height="28dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="99dp"
+            android:dropDownWidth="match_parent"
+            android:textColor="#000000"
+            android:entries="@android:drawable/arrow_down_float"
+            android:scrollbars="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="236dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="99dp"
+            android:layout_marginBottom="15dp"
+            android:text="Family history of heart disease (present/absent)"
+            android:textColor="#0277BD"
+            tools:layout_editor_absoluteX="114dp"
+            tools:layout_editor_absoluteY="66dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="70dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="16dp"
+            android:text="TypeA"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="99dp"
+            android:ems="10"
+            android:textColor="#000000"
+            android:hint="Measure type-A behavior"
+            android:inputType="numberDecimal"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintStart_toEndOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="236dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="99dp"
+            android:layout_marginBottom="15dp"
+            android:text="Score on test designed to measure type-A behavior between (0-100)"
+            android:textColor="#0277BD"
+            tools:layout_editor_absoluteX="114dp"
+            tools:layout_editor_absoluteY="66dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="70dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="16dp"
+            android:text="Obesity"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="99dp"
+            android:ems="10"
+            android:textColor="#000000"
+            android:inputType="numberDecimal"
+            android:hint=" Increased body fat"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintStart_toEndOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="236dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="99dp"
+            android:layout_marginBottom="15dp"
+            android:text="Increased body fat if BMI > 30 kg/m2 between(15-45)"
+            android:textColor="#0277BD"
+            tools:layout_editor_absoluteX="114dp"
+            tools:layout_editor_absoluteY="66dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="70dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="16dp"
+            android:text="Alcohol"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="238dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="99dp"
+            android:ems="10"
+            android:textColor="#ffffff"
+            android:inputType="numberDecimal"
+            android:hint="Current alcohol consumption "
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintStart_toEndOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="236dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="99dp"
+            android:layout_marginBottom="15dp"
+            android:text="Current consumption of alcohol in ml starting with 0"
+            android:textColor="#0277BD"
+            tools:layout_editor_absoluteX="114dp"
+            tools:layout_editor_absoluteY="66dp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="70dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="16dp"
+            android:text="Age"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/editText9"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="99dp"
+            android:ems="10"
+            android:textColor="#000000"
+            android:inputType="textPersonName"
+            android:hint="Your age "
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintStart_toEndOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="236dp"
+            android:layout_height="23dp"
+            android:layout_marginStart="99dp"
+            android:layout_marginBottom="15dp"
+            android:text="Curent age of patient"
+            android:textColor="#0277BD"
+            tools:layout_editor_absoluteX="114dp"
+            tools:layout_editor_absoluteY="66dp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="236dp"
+            android:layout_height="37dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginStart="99dp"
+            android:textColor="#0277BD"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:background="#ffffff"
+            tools:layout_editor_absoluteX="114dp"
+            tools:layout_editor_absoluteY="66dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="5dp"
+            android:text="Submit"
+            android:background="#0277BD"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </LinearLayout>
+
+</ScrollView>

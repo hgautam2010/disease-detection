@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Online_exam</string>
+    <string name="app_name">Heart Predictor</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="conpassword">Confirm Password</string>
@@ -8,13 +8,33 @@
     <string name="enter">ENTER DETAILS</string>
     <string name="selectch">SELECT ALGORITHM TYPE</string>
     <string name="register">REGISTER</string>
-    <string name="linear_regr">LINEAR REGRESSION</string>
+    <string name="linear_regr">RECTIFIED LINEAR REGRESSION</string>
     <string name="lc">LUNG CANCER</string>
     <string name="heartd">HEART DISEASE</string>
     <string name="switchon">SWITCH ON TO SELECT</string>
+    <string name="prev">PREVENTIONS</string>
+    <string name="softmax">SOFTMAX REGRESSION</string>
+    <string name="hrtdis">Heart Disease Prediction</string>
     <string-array name="famhist">
         <item>Present</item>
         <item>Absent</item>
     </string-array>
+    <string name="title_activity_prevention">Prevention</string>
+    <string name="prev1">
+        1. Dont smoke or use tobacco.\n\n2.Exercise for about 30 minutes on most days of\n\tthe week.
+             \n\n3.Eat a heart-healthy diet like Avoid too much salt\n\tand sugars in your diet.
+             \n\n4.Maintain a healthy blood pressure.\n\n5.Maintain a healthy weight.\n\n6.Get enough quality sleep.
+             \n\n7.Finding alternative ways to manage stress such \n\tas physical activity, relaxation exercises.
+             \n\n8.Get regular health screenings such as Blood pres-\n\tsur,Cholesterol levels,Diabetes screening etc.
+             \n\n9.Limit your calories.\n\n 10.Always maintain your Weight and body\n\tmass index(BMI).
+             \n\n11.Walk away from the Standard American Diet \n\t(SAD) such as fast food/fried food,meat,sweets,high\n\tsalt etc.
+             \n\n12.Spend quality time alone and pursue peacefulness\n\t\t 15-30 minutes daily, removing yourself from life
+             \n\tstressors.\n\n13.Turn off the TV.
+             \n\n14.Eat greens, beans, vibrant colors (fruits and veg.)\n\twhole grains, nuts and seeds.
+             \n\n15.Know your numbers Cholesterol,LDL, HDL,\n\tTriglycerides,Fasting Glucose,and in some cases
+             \n\ths-CRP, Vitamin D,Vitamin B12, insulin levels,\n\tHbA1c, and Coronary Calcium Score.
+             \n\nNormal Blood pressure is 130/80 or less.\n\tNormal BMI is 20 – 25.
+    </string>
+    <string name="title_activity_softmax_regression">Softmax_regression</string>
 
 </resources>
